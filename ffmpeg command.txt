@@ -1,0 +1,1 @@
+ffmpeg -i <filename> -vf crop=1320:1080:0:0,scale=256:224 %05d.png
